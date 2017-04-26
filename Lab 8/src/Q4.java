@@ -9,11 +9,11 @@ public class Q4 {
 		String c; char f;
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter a string");
-		f = FirstRepeatedCharacther(input.next());
+		f = FirstRepeatedCharacter(input.next());
 		System.out.println("The First repeated word is "+ f);
 	}
-	
-	public static char FirstRepeatedCharacther(String Word){
+
+	public static char FirstRepeatedCharacter(String Word){
 		HashMap<Character, Integer> Tester = new HashMap<Character,Integer>();
 		for(int i = 0 ; i < Word.length() ; i++){
 			char c = Word.charAt(i);
@@ -23,7 +23,7 @@ public class Q4 {
 				Tester.put(c, 1);
 			}
 		}
-		
+		// Search characterhashtable in in order of string str
 		for (int i = 0 ; i < Word.length() ; i++){
 			char c = Word.charAt(i);
             if (Tester.get(c) > 1) {
