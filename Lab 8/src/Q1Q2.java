@@ -10,7 +10,7 @@ public class Q1Q2 {
 		 //adding element in the hash map
 	        map.put(100, "akma");
 	        map.put(101, "Bida'");
-	        map.put(102, "Ammaruk");
+	        map.put(102, "Ammarul");
 	        map.put(103, "Afifah");
 	        map.put(103, "fifah");
 
